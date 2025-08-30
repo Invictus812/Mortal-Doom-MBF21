@@ -42,6 +42,7 @@ To start, since we have access to the extended state table now, of course all th
 - Doom Retro and GZDoom like to CTD when you hit the ENDOOM screen in BTSX but you've already quit at that point so I'm not too worried about it.  
 
 **HOW TO USE:**  
+Two versions of this mod are included. The one ending with "_No_Enemies" deletes the extra attacks for the enemies if you REALLY only want the smooth animations.  
 If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, Mortal Doom, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and don't want them in the autoload folder.  If you ARE playing Legacy of Rust, Mortal Doom must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR conten﻿t in the game.  Brghtmps.lmp and the NUGHUD go at the end as per usual if not in your autoload folder.
 
 **CREDITS:**  
