@@ -35,15 +35,16 @@ To start, since we have access to the extended state table now, of course all th
 - Doom Retro  
 - DSDA-Doom  
 - GZDoom
-- The Eternity Engine  
+- The Eternity Engine
+- Helion  
 
 *KNOWN ISSUES:  
-- Currently, of the ports I've tested here, only Woof!-family ports are able to accept the BRGHTMPS lump, though Doom Retro should be fixing this feature in afuture update.  All of the Woof!-family ports would crash loading Legacy of Rust when I tested them with BRGHTMPS included in the WAD.  Removing it fixed the crash, and adding it separately in the load order let me have our brightmaps back.  To avoid including extra versions of the same WAD in this folder, I've opted to simply include the separate BRGHTMPS lump to load as you see fit.  
+- Currently, of the ports I've tested here, only Woof!-family ports and Helion are able to accept the BRGHTMPS lump, though Doom Retro should be fixing this feature in a future update.
 - Doom Retro and GZDoom like to CTD when you hit the ENDOOM screen in BTSX but you've already quit at that point so I'm not too worried about it.  
 
 **HOW TO USE:**  
 Two versions of this mod are included. The one ending with "_No_Enemies" deletes the extra attacks for the enemies if you REALLY only want the smooth animations.  
-If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, Mortal Doom, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and don't want them in the autoload folder.  If you ARE playing Legacy of Rust, Mortal Doom must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR conten﻿t in the game.  Brghtmps.lmp and the NUGHUD go at the end as per usual if not in your autoload folder.
+If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, Mortal Doom, then the NUGHUD if you don't want it in the autoload folder.  If you ARE playing Legacy of Rust, Mortal Doom must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR conten﻿t in the game. NUGHUD goes at the end as per usual if not in your autoload folder.
 
 **CREDITS:**  
 Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)  
